@@ -1,0 +1,25 @@
+{
+  "name": "homebridge-roowifi",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for the RooWifi for Roomba",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/katiebot/homebridge-roowifi.git"
+  },
+  "bugs": {
+    "url": "http://github.com/katiebot/homebridge-roowifi/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "memoizee": "^0.4.14",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Roomba",
+  "accessory": "RooWifi",
+  "ipAddress": "<ipAddress>",
+  "username": "<username>",
+  "password": "<password>",
+  "pollingInterval": 300
+}

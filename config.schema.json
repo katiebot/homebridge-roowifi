@@ -1,0 +1,52 @@
+{
+    "pluginAlias": "RooWifi",
+    "pluginType": "accessory",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true,
+                "default": "Roomba",
+                "description": "The name that will appear in your Homebridge log."
+            },
+            "accessory": {
+                "title": "Accessory",
+                "type": "string",
+                "default": "RooWifi",
+                "required": true,
+                "description": "This must be RooWifi."
+            },
+            "ipAddress": {
+                "title": "IP Address",
+                "type": "string",
+                "placeholder": "<ipAddress>",
+                "required": true,
+                "description": "The IP address of your RooWifi."
+            },
+            "username": {
+                "title": "Username",
+                "type": "string",
+                "placeholder": "<username>",
+                "required": false,
+                "description": "The username for your RooWifi."
+            },
+            "password": {
+                "title": "Password",
+                "type": "string",
+                "placeholder": "<password>",
+                "required": false,
+                "description": "The password for your RooWifi."
+            },
+            "pollingInterval": {
+                "title": "Polling Interval",
+                "type": "number",
+                "required": true,
+                "placeholder": 300,
+                "minLength": 1,
+                "description": "Default polling interval to your Roomba."
+            }
+        }
+    }
+}
